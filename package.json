@@ -4,7 +4,9 @@
   "description": "",
   "main": "lab5.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node lab5.js",
+  "dev": "nodemon --inspect=0.0.0.0 lab5.js --host 0.0.0.0 --port 8080 --cache ./cache",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",

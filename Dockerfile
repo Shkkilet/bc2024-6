@@ -35,4 +35,4 @@ COPY . .
 EXPOSE 9229
 
 # Run the application.
-CMD npx nodemon -L --inspect=0.0.0.0 index.js --host 0.0.0.0 --port 8080 --cache ./cache
+CMD npx nodemon -L --inspect=0.0.0.0 lab5.js --host 0.0.0.0 --port 8080 --cache ./cache
